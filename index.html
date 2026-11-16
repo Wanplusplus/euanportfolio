@@ -1,11 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+    <meta name="description" content="A personal portfolio introduction.">
+    <title>Your Name | Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <header class="site-header container">
+        <a class="brand" href="#home" aria-label="Your Name, home">YN.</a>
+
+        <nav aria-label="Main navigation">
+        <ul class="nav-list">
+            <li>
+            <a class="nav-link" href="#home" aria-current="page">Home</a>
+            </li>
+
+            
+            <li><span class="nav-link" aria-disabled="true">About</span></li>
+            <li><span class="nav-link" aria-disabled="true">Projects</span></li>
+            <li><span class="nav-link" aria-disabled="true">Contact</span></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero container" aria-labelledby="hero-title">
+        <div class="hero-content">
+            <p class="eyebrow">The Digital Me</p>
+
+            <h1 id="hero-title">
+            Hello, I’m
+            <span>Your Name.</span>
+            </h1>
+
+            <p class="hero-role">
+            Your academic or professional title
+            </p>
+
+            <p class="hero-description">
+            Write a short introduction about yourself, your interests,
+            and the things you enjoy creating. Make this little corner
+            of the internet your own.
+            </p>
+
+            <p class="hero-tagline">
+            Your personal tagline goes here.
+            </p>
+        </div>
+
+        <figure class="hero-portrait">
+            
+
+            <div
+            class="photo-placeholder"
+            role="img"
+            aria-label="Placeholder for your personal photograph"
+            >
+            <span class="placeholder-person" aria-hidden="true"></span>
+            <span class="photo-label" aria-hidden="true">Your photo here</span>
+            </div>
+        </figure>
+        </section>
+    </main>
+    </body>
+    </html>

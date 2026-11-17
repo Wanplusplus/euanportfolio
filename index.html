@@ -2,13 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Euan Pacific A. Jaranilla is a Computer Science student at NU Bacolod. Explore his web projects, layout design, and campus activities.">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Euan Pacific A. Jaranilla is a Computer Science student at NU Bacolod. Explore his web projects, layout design, and campus activities."
+    >
+
     <title>Euan Jaranilla | Portfolio</title>
+
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main">
+        Skip to content
+    </a>
+
+    <!-- Navigation -->
     <header class="site-header container">
         <nav class="site-nav" aria-label="Main navigation">
             <div class="nav-links">
@@ -18,207 +33,798 @@
                 <a href="#education">Education</a>
                 <a href="#beyond">Outside class</a>
             </div>
-            <a class="text-button" href="#contact">Say hello <span class="arrow" aria-hidden="true">&#8599;</span></a>
+
+            <a class="text-button" href="#contact">
+                Say hello
+                <span class="arrow" aria-hidden="true">&#8599;</span>
+            </a>
         </nav>
     </header>
 
     <main id="main">
-        <section class="hero container" id="home" aria-labelledby="hero-title">
+        <!-- Introduction -->
+        <section
+            class="hero container"
+            id="home"
+            aria-labelledby="hero-title"
+        >
             <figure class="hero-portrait intro-photo">
-                <div class="portrait-placeholder" role="img" aria-label="Placeholder for Euan's personal portrait">
-                    <span class="portrait-head"></span>
-                    <span class="portrait-body"></span>
-                </div>
-                <figcaption>Portrait to add</figcaption>
+                <img
+                    class="portrait-image"
+                    src="assets/images/euan.png"
+                    alt="Portrait of Euan Jaranilla"
+                    width="1248"
+                    height="1248"
+                    fetchpriority="high"
+                    decoding="async"
+                >
             </figure>
+
             <div class="intro-copy">
-                <p class="eyebrow">Euan Pacific A. Jaranilla</p>
-                <h1 id="hero-title">I'm Euan, a Computer Science student and <span>layout designer.</span></h1>
-                <p class="hero-description">I study at NU Bacolod. My work includes web projects, layouts for student organizations, and Roblox interfaces and animated scenes.</p>
-                <p class="hero-identity">Third-Year BS Computer Science</p>
+                <p class="eyebrow">
+                    Euan Pacific A. Jaranilla
+                </p>
+
+                <h1 id="hero-title">
+                    I'm Euan, a Computer Science student and
+                    <span>layout designer.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I study at NU Bacolod. My work includes web projects,
+                    layouts for student organizations, and Roblox
+                    interfaces and animated scenes.
+                </p>
+
+                <p class="hero-identity">
+                    Third-Year BS Computer Science
+                </p>
+
                 <div class="hero-actions">
-                    <a class="text-button" href="#work">View my projects <span class="arrow" aria-hidden="true">&#8595;</span></a>
-                    <a class="text-button quiet-button" href="#about">About me <span class="arrow" aria-hidden="true">&#8599;</span></a>
+                    <a class="text-button" href="#work">
+                        View my projects
+                        <span class="arrow" aria-hidden="true">&#8595;</span>
+                    </a>
+
+                    <a class="text-button quiet-button" href="#about">
+                        About me
+                        <span class="arrow" aria-hidden="true">&#8599;</span>
+                    </a>
                 </div>
             </div>
         </section>
 
-        <section class="section container work-section" id="work" aria-labelledby="work-title">
+        <!-- Selected projects -->
+        <section
+            class="section container work-section"
+            id="work"
+            aria-labelledby="work-title"
+        >
             <div class="section-heading reveal">
                 <div>
-                    <h2 id="work-title">Selected projects</h2>
-                    <p>Web projects for disaster response, business operations, campus health, and civic learning.</p>
+                    <h2 id="work-title">
+                        Selected projects
+                    </h2>
+
+                    <p>
+                        Web projects for disaster response, business
+                        operations, campus health, and civic learning.
+                    </p>
                 </div>
             </div>
 
+            <!-- ResQHaven -->
             <article class="project featured-project reveal">
                 <div class="project-cover cover-resq">
-                    <img class="project-image" src="assets/images/resqhaven.png" alt="ResQHaven conceptual interface for evacuation management" width="1795" height="876" loading="lazy" decoding="async">
+                    <img
+                        class="project-image"
+                        src="assets/images/resqhaven.png"
+                        alt="ResQHaven conceptual interface for evacuation management"
+                        width="1795"
+                        height="876"
+                        loading="lazy"
+                        decoding="async"
+                    >
                 </div>
+
                 <div class="featured-caption">
                     <div>
-                        <p class="project-category">ResQHaven <span></span> Disaster response</p>
-                        <h3>A shared system for evacuation operations</h3>
-                        <p class="project-description">A proposed platform for evacuee records, shared updates, and resource allocation based on evacuee needs in the Negros Island Region.</p>
+                        <p class="project-category">
+                            ResQHaven
+                            <span aria-hidden="true"></span>
+                            Disaster response
+                        </p>
+
+                        <h3>
+                            A shared system for evacuation operations
+                        </h3>
+
+                        <p class="project-description">
+                            A proposed platform for evacuee records,
+                            shared updates, and resource allocation
+                            based on evacuee needs in the Negros Island
+                            Region.
+                        </p>
                     </div>
+
                     <details class="project-details" id="resq-details">
-                        <summary>Project details <span class="detail-symbol" aria-hidden="true"></span></summary>
+                        <summary>
+                            Project details
+                            <span
+                                class="detail-symbol"
+                                aria-hidden="true"
+                            ></span>
+                        </summary>
+
                         <dl class="details-body">
-                            <div><dt>My contribution</dt><dd class="placeholder">[Add your role and contribution]</dd></div>
-                            <div><dt>Technologies</dt><dd class="placeholder">[Add confirmed technologies]</dd></div>
+                            <div>
+                                <dt>My contribution</dt>
+                                <dd>Developer and front-end designer</dd>
+                            </div>
+
+                            <div>
+                                <dt>Technologies</dt>
+                                <dd>React, Node.js, Bootstrap, Figma</dd>
+                            </div>
                         </dl>
                     </details>
                 </div>
             </article>
 
             <div class="project-grid">
+                <!-- Ximo -->
                 <article class="project reveal">
                     <div class="project-cover cover-ximo">
-                        <img class="project-image" src="assets/images/ximo.png" alt="Ximo conceptual interface for point-of-sale and inventory management" width="1323" height="1189" loading="lazy" decoding="async">
+                        <img
+                            class="project-image"
+                            src="assets/images/ximo.png"
+                            alt="Ximo conceptual interface for point-of-sale and inventory management"
+                            width="1323"
+                            height="1189"
+                            loading="lazy"
+                            decoding="async"
+                        >
                     </div>
-                    <p class="project-category">Ximo <span></span> Point of sale</p>
-                    <h3>Sales and inventory in one workspace</h3>
-                    <p class="project-description">A point-of-sale system with inventory, reporting, and administrative workflows.</p>
+
+                    <p class="project-category">
+                        Ximo
+                        <span aria-hidden="true"></span>
+                        Point of sale
+                    </p>
+
+                    <h3>
+                        Sales and inventory in one workspace
+                    </h3>
+
+                    <p class="project-description">
+                        A point-of-sale system with inventory,
+                        reporting, and administrative workflows.
+                    </p>
+
                     <details class="project-details">
-                        <summary>Project details <span class="detail-symbol" aria-hidden="true"></span></summary>
+                        <summary>
+                            Project details
+                            <span
+                                class="detail-symbol"
+                                aria-hidden="true"
+                            ></span>
+                        </summary>
+
                         <dl class="details-body">
-                            <div><dt>My contribution</dt><dd class="placeholder">[Add your specific contribution]</dd></div>
-                            <div><dt>Technologies</dt><dd>React, Node.js / Express, Redux, Supabase</dd></div>
-                            <div><dt>Year</dt><dd class="placeholder">[Add project year]</dd></div>
+                            <div>
+                                <dt>My contribution</dt>
+                                <dd>Developer and front-end designer</dd>
+                            </div>
+
+                            <div>
+                                <dt>Technologies</dt>
+                                <dd>React, Node.js, Bootstrap, Figma</dd>
+                            </div>
                         </dl>
                     </details>
                 </article>
+
+                <!-- PiliPinas -->
                 <article class="project reveal">
                     <div class="project-cover cover-pili">
-                        <img class="project-image" src="assets/images/pilipinas.png" alt="PiliPinas conceptual interface for voter education and quizzes" width="1323" height="1189" loading="lazy" decoding="async">
+                        <img
+                            class="project-image"
+                            src="assets/images/pilipinas.png"
+                            alt="PiliPinas conceptual interface for voter education and quizzes"
+                            width="1323"
+                            height="1189"
+                            loading="lazy"
+                            decoding="async"
+                        >
                     </div>
-                    <p class="project-category">PiliPinas <span></span> Hackathon project</p>
-                    <h3>Voter education through interactive quizzes</h3>
-                    <p class="project-description">A voter education project by Team Ximo that combines information with quizzes.</p>
+
+                    <p class="project-category">
+                        PiliPinas
+                        <span aria-hidden="true"></span>
+                        Hackathon project
+                    </p>
+
+                    <h3>
+                        Voter education through interactive quizzes
+                    </h3>
+
+                    <p class="project-description">
+                        A voter education project by Team Ximo that
+                        combines information with quizzes.
+                    </p>
+
                     <details class="project-details">
-                        <summary>Project details <span class="detail-symbol" aria-hidden="true"></span></summary>
+                        <summary>
+                            Project details
+                            <span
+                                class="detail-symbol"
+                                aria-hidden="true"
+                            ></span>
+                        </summary>
+
                         <dl class="details-body">
-                            <div><dt>My contribution</dt><dd>Team member. <span class="placeholder">[Add your specific contribution]</span></dd></div>
-                            <div><dt>Technologies</dt><dd>React, Node.js, Bootstrap, Figma</dd></div>
-                            <div><dt>Event &amp; year</dt><dd class="placeholder">[Add hackathon name and year]</dd></div>
+                            <div>
+                                <dt>My contribution</dt>
+                                <dd>Developer and front-end designer</dd>
+                            </div>
+
+                            <div>
+                                <dt>Technologies</dt>
+                                <dd>React, Node.js, Bootstrap, Figma</dd>
+                            </div>
                         </dl>
                     </details>
                 </article>
+
+                <!-- NUCARE -->
                 <article class="project reveal">
                     <div class="project-cover cover-nucare">
-                        <img class="project-image" src="assets/images/nucare.png" alt="NUCARE conceptual interface for campus clinic management" width="1339" height="1175" loading="lazy" decoding="async">
+                        <img
+                            class="project-image"
+                            src="assets/images/nucare.png"
+                            alt="NUCARE conceptual interface for campus clinic management"
+                            width="1339"
+                            height="1175"
+                            loading="lazy"
+                            decoding="async"
+                        >
                     </div>
-                    <p class="project-category">NUCARE <span></span> Academic project / 2026</p>
-                    <h3>Patient records and clinic administration</h3>
-                    <p class="project-description">A campus clinic system for consultations, patient history, reports, and administration.</p>
+
+                    <p class="project-category">
+                        NUCARE
+                        <span aria-hidden="true"></span>
+                        Academic project / 2026
+                    </p>
+
+                    <h3>
+                        Patient records and clinic administration
+                    </h3>
+
+                    <p class="project-description">
+                        A campus clinic system for consultations,
+                        patient history, reports, and administration.
+                    </p>
+
                     <details class="project-details">
-                        <summary>Project details <span class="detail-symbol" aria-hidden="true"></span></summary>
+                        <summary>
+                            Project details
+                            <span
+                                class="detail-symbol"
+                                aria-hidden="true"
+                            ></span>
+                        </summary>
+
                         <dl class="details-body">
-                            <div><dt>My contribution</dt><dd>Test cases for consultation and administrative workflows. <span class="placeholder">[Add other contributions]</span></dd></div>
-                            <div><dt>Technologies</dt><dd class="placeholder">[Add confirmed technologies]</dd></div>
+                            <div>
+                                <dt>My contribution</dt>
+                                <dd>Developer and front-end designer</dd>
+                            </div>
+
+                            <div>
+                                <dt>Technologies</dt>
+                                <dd>React, Node.js, Bootstrap, Figma</dd>
+                            </div>
                         </dl>
                     </details>
                 </article>
+
+                <!-- Smile Spots -->
                 <article class="project reveal">
                     <div class="project-cover cover-smile">
-                        <img class="project-image" src="assets/images/smilespots.png" alt="Smile Spots conceptual interface for discovering local places and routes" width="1339" height="1174" loading="lazy" decoding="async">
+                        <img
+                            class="project-image"
+                            src="assets/images/smilespots.png"
+                            alt="Smile Spots conceptual interface for discovering local places and routes"
+                            width="1339"
+                            height="1174"
+                            loading="lazy"
+                            decoding="async"
+                        >
                     </div>
-                    <p class="project-category">Smile Spots <span></span> Tourism application</p>
-                    <h3>Finding places around you</h3>
-                    <p class="project-description">A place-discovery app with location search, filters for interests and amenities, and routes on a map.</p>
+
+                    <p class="project-category">
+                        Smile Spots
+                        <span aria-hidden="true"></span>
+                        Tourism application
+                    </p>
+
+                    <h3>
+                        Finding places around you
+                    </h3>
+
+                    <p class="project-description">
+                        A place-discovery app with location search,
+                        filters for interests and amenities, and
+                        routes on a map.
+                    </p>
+
                     <details class="project-details">
-                        <summary>Project details <span class="detail-symbol" aria-hidden="true"></span></summary>
+                        <summary>
+                            Project details
+                            <span
+                                class="detail-symbol"
+                                aria-hidden="true"
+                            ></span>
+                        </summary>
+
                         <dl class="details-body">
-                            <div><dt>My contribution</dt><dd class="placeholder">[Add your specific contribution]</dd></div>
-                            <div><dt>Technologies &amp; year</dt><dd class="placeholder">[Add confirmed technologies and year]</dd></div>
+                            <div>
+                                <dt>My contribution</dt>
+                                <dd>Developer and front-end designer</dd>
+                            </div>
+
+                            <div>
+                                <dt>Technologies</dt>
+                                <dd>React, Node.js, Bootstrap, Figma</dd>
+                            </div>
                         </dl>
                     </details>
                 </article>
             </div>
         </section>
 
-        <section class="section container" id="skills" aria-labelledby="skills-title">
+        <!-- Skills -->
+        <section
+            class="section container"
+            id="skills"
+            aria-labelledby="skills-title"
+        >
             <div class="section-heading reveal">
-                <div><h2 id="skills-title">My skills</h2><p>Tools I've used in projects and campus activities.</p></div>
-                <a class="text-button" href="#activities">View my experience <span class="arrow" aria-hidden="true">&#8599;</span></a>
+                <div>
+                    <h2 id="skills-title">
+                        My skills
+                    </h2>
+
+                    <p>
+                        Tools and skills I use in projects and
+                        campus activities.
+                    </p>
+                </div>
+
+                <a class="text-button" href="#activities">
+                    View my experience
+                    <span class="arrow" aria-hidden="true">&#8599;</span>
+                </a>
             </div>
+
             <div class="skills-grid">
-                <article class="skill reveal"><h3>Web development</h3><p>HTML, CSS, JavaScript, React, and Bootstrap for web interfaces. Node.js and Express for application logic.</p></article>
-                <article class="skill reveal"><h3>Databases &amp; tools</h3><p>SQL and Supabase for data, Git and GitHub for version control, and VS Code for development.</p></article>
-                <article class="skill reveal"><h3>Layout &amp; interface design</h3><p>Figma for interface work, along with layouts and social media materials for the Computing Society and Historia.</p></article>
-                <article class="skill reveal"><h3>Teamwork &amp; testing</h3><p>Student organization leadership, collaborative project work, and test cases for NUCARE's consultation and administration features.</p></article>
+                <article class="skill reveal">
+                    <h3>
+                        Web development
+                    </h3>
+
+                    <p>
+                        React and Bootstrap for web interfaces,
+                        with Node.js for application logic.
+                    </p>
+                </article>
+
+                <article class="skill reveal">
+                    <h3>
+                        Layout &amp; interface design
+                    </h3>
+
+                    <p>
+                        Figma for interface design, along with
+                        layouts and visual materials for the
+                        Computing Society and Historia.
+                    </p>
+                </article>
+
+                <article class="skill reveal">
+                    <h3>
+                        Marketing &amp; visual communication
+                    </h3>
+
+                    <p>
+                        Social media content and layout design
+                        for student organizations, alongside
+                        marketing work at Ximo.
+                    </p>
+                </article>
+
+                <article class="skill reveal">
+                    <h3>
+                        Teamwork &amp; testing
+                    </h3>
+
+                    <p>
+                        Student organization leadership,
+                        collaborative project work, and test
+                        cases for NUCARE's consultation and
+                        administration features.
+                    </p>
+                </article>
             </div>
         </section>
 
-        <section class="section container" id="about" aria-labelledby="about-title">
+        <!-- About -->
+        <section
+            class="section container"
+            id="about"
+            aria-labelledby="about-title"
+        >
             <div class="about-grid">
                 <div class="about-copy reveal">
-                    <h2 id="about-title">Nice to meet you.</h2>
-                    <p>I've served as vice president of the Computing Society and later worked on its layouts and social media posts. I also design layouts for Historia, our campus publication.</p>
-                    <p>One thing I like about Computer Science is how broad it is. I want to explore a thesis that connects computing and psychology. I don't have a psychology background yet, so I would need to learn that side of the project too.</p>
-                    <a class="text-button" href="#beyond">Outside the classroom <span class="arrow" aria-hidden="true">&#8599;</span></a>
+                    <h2 id="about-title">
+                        Nice to meet you.
+                    </h2>
+
+                    <p>
+                        I've served as vice president of the
+                        Computing Society and later worked on its
+                        layouts and social media posts. I also
+                        design layouts for Historia, our campus
+                        publication.
+                    </p>
+
+                    <p>
+                        One thing I like about Computer Science is
+                        how broad it is. I want to explore a thesis
+                        that connects computing and psychology.
+                        I don't have a psychology background yet,
+                        so I would need to learn that side of the
+                        project too.
+                    </p>
+
+                    <a class="text-button" href="#beyond">
+                        Outside the classroom
+                        <span class="arrow" aria-hidden="true">&#8599;</span>
+                    </a>
                 </div>
+
                 <figure class="about-photo reveal">
-                    <div class="personal-image-placeholder" role="img" aria-label="Placeholder for a personal or campus photograph">
-                        <span class="photo-corner corner-one"></span><span class="photo-corner corner-two"></span>
-                        <span>A little more of me</span>
-                        <small>Personal or campus photo to add</small>
-                    </div>
+                    <img
+                        class="about-image"
+                        src="assets/images/euan-mirror.png"
+                        alt="Euan taking a mirror photograph"
+                        width="1056"
+                        height="1408"
+                        loading="lazy"
+                        decoding="async"
+                    >
                 </figure>
             </div>
         </section>
 
-        <section class="section container" id="education" aria-labelledby="education-title">
+        <!-- Education -->
+        <section
+            class="section container"
+            id="education"
+            aria-labelledby="education-title"
+        >
             <div class="split-section">
-                <div class="section-aside reveal"><h2 id="education-title">Education</h2><p>My academic background.</p></div>
+                <div class="section-aside reveal">
+                    <h2 id="education-title">
+                        Education
+                    </h2>
+
+                    <p>
+                        My academic background.
+                    </p>
+                </div>
+
                 <div class="education-list">
-                    <article class="education-entry reveal"><span class="entry-label">College / 2024&ndash;Present</span><h3>National University &ndash; Bacolod</h3><p>BS Computer Science &middot; Third year</p></article>
-                    <article class="education-entry reveal"><span class="entry-label">Senior high school / 2022&ndash;2024</span><h3>University of Negros Occidental &ndash; Recoletos</h3></article>
-                    <article class="education-entry reveal"><span class="entry-label">Junior high school / 2018&ndash;2022</span><h3>Shiloh Christian School</h3></article>
-                    <article class="education-entry reveal"><span class="entry-label">Elementary / 2012&ndash;2018</span><h3>Shiloh Christian School</h3></article>
-                    <p class="honors reveal"><strong>Academic distinctions</strong><span class="placeholder">[Add verified honors or recognitions, if any]</span></p>
+                    <article class="education-entry reveal">
+                        <span class="entry-label">
+                            College / 2024&ndash;Present
+                        </span>
+
+                        <h3>
+                            National University &ndash; Bacolod
+                        </h3>
+
+                        <p>
+                            BS Computer Science &middot; Third year
+                        </p>
+                    </article>
+
+                    <article class="education-entry reveal">
+                        <span class="entry-label">
+                            Senior high school / 2022&ndash;2024
+                        </span>
+
+                        <h3>
+                            University of Negros Occidental
+                            &ndash; Recoletos
+                        </h3>
+                    </article>
+
+                    <article class="education-entry reveal">
+                        <span class="entry-label">
+                            Elementary to junior high school /
+                            2012&ndash;2022
+                        </span>
+
+                        <h3>
+                            Shiloh Christian School
+                        </h3>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section class="section container" id="activities" aria-labelledby="activities-title">
-            <div class="section-heading reveal"><h2 id="activities-title">Organizations &amp; activities</h2></div>
+        <!-- Organizations and activities -->
+        <section
+            class="section container"
+            id="activities"
+            aria-labelledby="activities-title"
+        >
+            <div class="section-heading reveal">
+                <h2 id="activities-title">
+                    Organizations &amp; activities
+                </h2>
+            </div>
+
             <div class="activity-list">
-                <article class="activity reveal"><span class="entry-label">2024&ndash;Present</span><div><h3>Computing Society</h3><p>Former Vice President; later Layout Designer and Social Media Manager. Created posts for student activities, academic recognition, and organization events.</p></div><span class="activity-type">Leadership &amp; design</span></article>
-                <article class="activity reveal"><span class="entry-label">2024&ndash;Present</span><div><h3>Historia</h3><p>Layout designer for the campus publication.</p></div><span class="activity-type">Campus publication</span></article>
-                <article class="activity reveal"><span class="entry-label">2024&ndash;Present</span><div><h3>Team Ximo</h3><p>Hackathon team member for PiliPinas, a voter education project. <span class="placeholder">[Add event name and result, if applicable]</span></p></div><span class="activity-type">Hackathon</span></article>
+                <article class="activity reveal">
+                    <span class="entry-label">
+                        2024&ndash;Present
+                    </span>
+
+                    <div>
+                        <h3>
+                            Computing Society
+                        </h3>
+
+                        <p>
+                            Former Vice President; later Layout
+                            Designer and Social Media Manager.
+                            Created posts for student activities,
+                            academic recognition, and organization
+                            events.
+                        </p>
+                    </div>
+
+                    <span class="activity-type">
+                        Leadership &amp; design
+                    </span>
+                </article>
+
+                <article class="activity reveal">
+                    <span class="entry-label">
+                        2024&ndash;Present
+                    </span>
+
+                    <div>
+                        <h3>
+                            Historia
+                        </h3>
+
+                        <p>
+                            Layout designer for the campus
+                            publication.
+                        </p>
+                    </div>
+
+                    <span class="activity-type">
+                        Campus publication
+                    </span>
+                </article>
+
+                <article class="activity reveal">
+                    <span class="entry-label">
+                        2024&ndash;Present
+                    </span>
+
+                    <div>
+                        <h3>
+                            Team Ximo
+                        </h3>
+
+                        <p>
+                            Ximo is a startup company where I
+                            contribute as a software developer,
+                            front-end developer, layout designer,
+                            and marketer.
+                        </p>
+                    </div>
+
+                    <span class="activity-type">
+                        Startup &amp; development
+                    </span>
+                </article>
             </div>
         </section>
 
-        <section class="section container" id="beyond" aria-labelledby="beyond-title">
-            <div class="section-heading reveal"><h2 id="beyond-title">Outside the classroom</h2><span class="section-note">A few things about me</span></div>
+        <!-- Outside the classroom -->
+        <section
+            class="section container"
+            id="beyond"
+            aria-labelledby="beyond-title"
+        >
+            <div class="section-heading reveal">
+                <h2 id="beyond-title">
+                    Outside the classroom
+                </h2>
+
+                <span class="section-note">
+                    A few things about me
+                </span>
+            </div>
+
             <div class="personal-list">
-                <article class="personal-entry reveal"><span class="entry-label">Hobbies &amp; passions</span><div><h3>Roblox and layout design</h3><p>My personal projects include Roblox interfaces, characters, and animated scenes. I also work on layouts for campus organizations and publications.</p></div></article>
-                <article class="personal-entry reveal"><span class="entry-label">Life outside technology</span><div><h3>Away from the screen</h3><p>I enjoy trying new food and discovering places to eat. It's a simple way to step out of my routine and stay open to new experiences.</p></div></article>
-                <article class="personal-entry reveal"><span class="entry-label">If I weren't studying CS</span><div><h3>I would have liked political science.</h3><p>I'm interested in how government decisions affect everyday life. Political science would help me understand social issues and how people can take part in shaping their communities.</p></div></article>
+                <article class="personal-entry reveal">
+                    <span class="entry-label">
+                        Hobbies &amp; passions
+                    </span>
+
+                    <div>
+                        <h3>
+                            Roblox and layout design
+                        </h3>
+
+                        <p>
+                            My personal projects include Roblox
+                            interfaces, characters, and animated
+                            scenes. I also work on layouts for
+                            campus organizations and publications.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="personal-entry reveal">
+                    <span class="entry-label">
+                        Life outside technology
+                    </span>
+
+                    <div>
+                        <h3>
+                            Away from the screen
+                        </h3>
+
+                        <p>
+                            I enjoy trying new food and discovering
+                            places to eat. It's a simple way to
+                            step out of my routine and stay open
+                            to new experiences.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="personal-entry reveal">
+                    <span class="entry-label">
+                        If I weren't studying CS
+                    </span>
+
+                    <div>
+                        <h3>
+                            I would have liked political science.
+                        </h3>
+
+                        <p>
+                            I'm interested in how government
+                            decisions affect everyday life.
+                            Political science would help me
+                            understand social issues and how
+                            people can take part in shaping
+                            their communities.
+                        </p>
+                    </div>
+                </article>
             </div>
         </section>
 
-        <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <!-- Contact -->
+        <section
+            class="section contact-section"
+            id="contact"
+            aria-labelledby="contact-title"
+        >
             <div class="container">
-                <div class="contact-heading reveal"><h2 class="eyebrow" id="contact-title">Get in touch</h2><a class="email-link" href="mailto:euanjaranilla3@gmail.com">euanjaranilla3@gmail.com<span class="arrow" aria-hidden="true">&#8599;</span></a></div>
+                <div class="contact-heading reveal">
+                    <h2 class="eyebrow" id="contact-title">
+                        Get in touch
+                    </h2>
+
+                    <a
+                        class="email-link"
+                        href="mailto:euanjaranilla3@gmail.com"
+                    >
+                        <span class="email-address">
+                            euanjaranilla3@gmail.com
+                        </span>
+
+                        <span class="arrow" aria-hidden="true">
+                            &#8599;
+                        </span>
+                    </a>
+                </div>
+
                 <div class="contact-bottom reveal">
-                    <div><p>You can reach me by email or phone.</p><a class="phone-link" href="tel:+639605364637">09605364637</a></div>
-                    <div class="social-links" role="group" aria-label="Social profiles">
-                        <a class="social-button" href="https://github.com/Wanplusplus" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile: Wanplusplus" title="GitHub">
-                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.08c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.73 1.16 1.73 1.16 1.01 1.72 2.65 1.22 3.29.93.1-.73.39-1.22.71-1.5-2.5-.28-5.14-1.25-5.14-5.58 0-1.23.44-2.24 1.16-3.03-.12-.28-.5-1.43.11-2.99 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.61 1.56.23 2.71.11 2.99.72.79 1.16 1.8 1.16 3.03 0 4.34-2.65 5.29-5.17 5.57.4.35.75.99.75 2v2.97c0 .3.2.65.78.54A11.2 11.2 0 0 0 12 .8Z"/></svg>
+                    <div>
+                        <p>
+                            You can reach me by email or phone.
+                        </p>
+
+                        <a
+                            class="phone-link"
+                            href="tel:+639605364637"
+                        >
+                            09605364637
                         </a>
-                        <button class="social-button" type="button" disabled aria-label="LinkedIn profile not added yet" title="LinkedIn coming soon"><span aria-hidden="true">in</span></button>
+                    </div>
+
+                    <div
+                        class="social-links"
+                        role="group"
+                        aria-label="Social profiles"
+                    >
+                        <a
+                            class="social-button"
+                            href="https://github.com/Wanplusplus"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub profile: Wanplusplus"
+                            title="GitHub"
+                        >
+                            <svg
+                                viewBox="0 0 24 24"
+                                aria-hidden="true"
+                                focusable="false"
+                            >
+                                <path
+                                    d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.08c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.68.08-.68 1.13.08 1.73 1.16 1.73 1.16 1.01 1.72 2.65 1.22 3.29.93.1-.73.39-1.22.71-1.5-2.5-.28-5.14-1.25-5.14-5.58 0-1.23.44-2.24 1.16-3.03-.12-.28-.5-1.43.11-2.99 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.61 1.56.23 2.71.11 2.99.72.79 1.16 1.8 1.16 3.03 0 4.34-2.65 5.29-5.17 5.57.4.35.75.99.75 2v2.97c0 .3.2.65.78.54A11.2 11.2 0 0 0 12 .8Z"
+                                ></path>
+                            </svg>
+                        </a>
+
+                        <button
+                            class="social-button"
+                            type="button"
+                            disabled
+                            aria-label="LinkedIn profile not added yet"
+                            title="LinkedIn coming soon"
+                        >
+                            <span aria-hidden="true">in</span>
+                        </button>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="site-footer container">
-        <div><strong>Euan Pacific A. Jaranilla</strong><p>Thanks for looking through my work.</p></div>
-        <p>&copy; 2026 Euan Pacific A. Jaranilla. All rights reserved.</p>
-        <a class="text-button" href="#home">Back to top <span class="arrow" aria-hidden="true">&#8593;</span></a>
+        <div>
+            <strong>
+                Euan Pacific A. Jaranilla
+            </strong>
+
+            <p>
+                Thanks for looking through my work.
+            </p>
+        </div>
+
+        <p>
+            &copy; 2026 Euan Pacific A. Jaranilla.
+            All rights reserved.
+        </p>
+
+        <a class="text-button" href="#home">
+            Back to top
+            <span class="arrow" aria-hidden="true">&#8593;</span>
+        </a>
     </footer>
 </body>
 </html>
